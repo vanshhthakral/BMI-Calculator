@@ -1,8 +1,4 @@
-Here’s a well-structured **README.md** file for your **BMI Calculator** project using **Tkinter**, complete with instructions, features, and preview descriptions.
 
----
-
-````markdown
 # 🧮 BMI Calculator (Python Tkinter GUI)
 
 This is a Python GUI application that allows users to calculate their **Body Mass Index (BMI)** based on input height, weight, and age. The app also provides personalized health feedback, a suggested **diet chart**, and visual **BMI trends** with data logging features.
@@ -22,12 +18,6 @@ This is a Python GUI application that allows users to calculate their **Body Mas
 
 ---
 
-## 📸 GUI Preview
-
-![App Preview](/Users/vanshthakral/Desktop/git/python/BMI-Calculator/format.png)
-
----
-
 ## 🔧 Tech Stack
 
 - `Python 3.x`
@@ -38,27 +28,6 @@ This is a Python GUI application that allows users to calculate their **Body Mas
 
 ---
 
-## 🚀 How to Run
-
-1. **Clone the repository** or download the files.
-```bash
-git clone https://github.com/yourusername/bmi-calculator.git
-cd bmi-calculator
-````
-
-2. **Install dependencies** (if not already installed):
-
-```bash
-pip install pandas matplotlib pillow
-```
-
-3. **Run the application**:
-
-```bash
-python bmi_calculator.py
-```
-
----
 
 ## 📁 Project Structure
 
@@ -76,27 +45,11 @@ bmi-calculator/
 
 ---
 
-## 📌 Notes
-
-* Ensure all images (`icon.png`, `man.png`, `top.png`, `scale.png`, `box.png`) are in the same directory as the Python script.
-* Run only with **Python 3.6+** to ensure compatibility with modules used.
-
----
 
 ## 🧑‍💻 Author
 
 **Vansh Thakral**
+
 Feel free to connect for collaboration or queries.
 
 ---
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
-```
-
----
-
-Let me know if you'd like a GitHub version with badges (e.g. Python version, license, etc.) or want to host it online.
-```
