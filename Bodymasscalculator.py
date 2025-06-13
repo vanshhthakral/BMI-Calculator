@@ -52,9 +52,9 @@ Label(root, width=100, height=32, bg="light green").pack(side=BOTTOM)
 
 # twoboxes
 box = PhotoImage(file="box.png")
-Label(root, text="Weight (in kg)", font="arial 20 bold", fg="black").place(x=255, y=100)
-Label(root, text="Height (in cm)", font="arial 20 bold", fg="black").place(x=35, y=100)
-Label(root, text="Age", font="arial 20 bold", fg="black").place(x=475, y=100)
+Label(root, text="Weight (in kg)", font="arial 20 bold", fg="black", bg="#f0f1f5").place(x=255, y=100)
+Label(root, text="Height (in cm)", font="arial 20 bold", fg="black", bg="#f0f1f5").place(x=35, y=100)
+Label(root, text="Age", font="arial 20 bold", fg="black", bg="#f0f1f5").place(x=475, y=100)
 
 # scale
 scale = PhotoImage(file="scale.png")
@@ -164,7 +164,7 @@ age.place(x=475, y=160)
 secondimage = Label(root, bg="light green")
 secondimage.place(x=5, y=600)
 
-Button(root, text="View Report", width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="white", command=BMI).place(
+Button(root, text="View Report", width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="black", command=BMI).place(
     x=480, y=340)
 
 label1 = Label(root, font="arial 40 bold", bg="lightgreen", fg="#fff")
@@ -207,14 +207,14 @@ def DIETCHART():
     diet_chart_window.title("Diet Chart")
 
     # Create a label to display the diet chart text
-    label_diet_chart = Label(diet_chart_window, text=diet_text, font="Arial 12", justify=LEFT, bg="#f0f1f5")
+    label_diet_chart = Label(diet_chart_window, text=diet_text, font="Arial 12", justify=LEFT, bg="#f0f1f5", fg="black")
     label_diet_chart.pack(padx=10, pady=10)
 
 
 
 
 
-Button(root, text="View Diet Chart", width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="white",
+Button(root, text="View Diet Chart", width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="black",
        command=DIETCHART).place(x=480, y=400)
 label4 = Label(root, font="arial 10 bold", bg="lightgreen")
 label4.place(x=400, y=500)
@@ -270,10 +270,10 @@ def plot_age_vs_bmi():
 
 
 # Button to show BMI trends
-plot_button = tk.Button(root, text="Show BMI Trends", command=plot_trends, width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="white").place(x=480, y=520)
+plot_button = tk.Button(root, text="Show BMI Trends", command=plot_trends, width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="black").place(x=480, y=520)
 
 #button for age vs bmi
-plot_button = tk.Button(root, text="Show Age vs BMI", command=plot_age_vs_bmi, width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="white").place(x=480, y=460)
+plot_button = tk.Button(root, text="Show Age vs BMI", command=plot_age_vs_bmi, width=15, height=2, font="arial 10 bold", bg="#1f6e68", fg="black").place(x=480, y=460)
 
 
 # Set up the main window

@@ -24,7 +24,7 @@ This is a Python GUI application that allows users to calculate their **Body Mas
 
 ## 📸 GUI Preview
 
-![App Preview](insert-screenshot-path/Screenshot.png)
+![App Preview](/Users/vanshthakral/Desktop/git/python/BMI-Calculator/format.png)
 
 ---
 
